@@ -22,4 +22,19 @@
 10.) Created the squares var that consisted of the class .square
     Allows each square to be manipulated
 
-11.) Used  for loop to "loop" through the lengths of the squares then we allowed each "square" from the var to = the colors associated with the "colors" var we created.
+11.) Used a for loop to "loop" through the lengths of the squares then we allowed each "square" from the var to = the colors associated with the "colors" var we created.
+
+12.) Added a <span> tag to the h1 header.
+    Allows the textContent to be updated to the "pickedColor" we hard coded in.
+
+13.) Created two new vars
+    A.) pickedColor = colors[i]
+        The picked color is what controls the color we want the "user" to see in the h1 header.
+    B.) colorDisplay = document.getElementById("colorDisplay")
+
+14.) Set colorDisplay.textContent = pickedColor
+
+15.) Added an addEventListener on the squares[i]
+    The event listener is a "click" function
+    Created a var clickedColor = this.style.backgroundColor
+    Included a "if/else" statement for when the "user" clicked the "correct" and/or "wrong" square.
