@@ -23,10 +23,20 @@ for(var i = 0; i < squares.length; i++){
         var clickedColor = this.style.backgroundColor;
         //compare color to pickedColor
         if(clickedColor === pickedColor) {
-            alert("Correct!");
+            messageDisplay.textContent = "Correct!";
+            changeColors(clickedColor);
         } else {
             this.style.background = "#232323";
             messageDisplay.textContent = "Try Again";
         }
     });
+}
+
+function changeColors(color) {
+    // Loop Through all Squares
+    for(var i = 0; i < squares.length; i++) {
+    // Change colors of all Squares to match the correct square
+    squares[i].style.background = color;
+}
+
 }
