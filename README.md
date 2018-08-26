@@ -71,3 +71,5 @@
 26.) Added logic to change to h1 style background color when we "clicked" the correct color.
     Created a new variable
     Modified our logic in our if/else correct statement.
+27.) Deleted the Span CSS Selector so we could see our black text when we guess incorrectly.
+    Added a new button to our HTML in addition to CSS to the "Stripe" Div.
