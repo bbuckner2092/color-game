@@ -46,6 +46,7 @@ function generateRandomColors(num){
     // Repeat num times
     for(var i = 0; i < num; i++){
         // get random color and push to arr
+        arr.push(randomColor())
     }
     // return that array
     return arr;

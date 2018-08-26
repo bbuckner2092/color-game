@@ -61,3 +61,7 @@
     C.) Psuedo coded the 3 steps to make this function generate 6 random colors
 22.) Modified the generateRandomColors(num) function
     Added another function which will actually generate the 6 colors we need.
+23.) Added a new function randomColor()
+    Created 3 new variables, R G B, which each consist of there own random numbers between 0 - 255
+24.) Concatenated the 3 variables before using the push method on the arr to generate the 6 random numbers.
+    Included a comment for the HTML to explain where we get the number of Squares.
