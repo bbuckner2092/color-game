@@ -68,3 +68,6 @@
 25.) Added an additional space between the , and " of the return rgb, specifically the G and B.
     During the actual gameplay, when we would pick the correct square it was not identical to the spacing of the clicked color.  
     This was the only true solution.
+26.) Added logic to change to h1 style background color when we "clicked" the correct color.
+    Created a new variable
+    Modified our logic in our if/else correct statement.
