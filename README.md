@@ -75,3 +75,5 @@
     Added a new button to our HTML in addition to CSS to the "Stripe" Div.
 28.) Created our resetButton
     added an event listener and included our psuedo code.
+29.) Included our logic within our resetButton event listener
+    generated new colors, picked a new random color, change the display to match the picked color, and changed the colors of the squares.
