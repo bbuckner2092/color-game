@@ -38,3 +38,19 @@
     The event listener is a "click" function
     Created a var clickedColor = this.style.backgroundColor
     Included a "if/else" statement for when the "user" clicked the "correct" and/or "wrong" square.
+
+16.) Modified the "wrong Selection" by adding "this.style.background" = "#232323", which is the background-color
+
+17.) Created a new Div with a Span tag nested inside.
+    Gave the Span an id = message
+    Went into the JS file and created  a new var, messageDisplay
+    Added the textContent, "Try Again";
+
+18.) Added Span to the CSS file and gave all spans a white text color.
+
+19.) Modified the If/Else statment for when we guess the correct one.
+    When we guess correct, we will display correct.
+
+20.) Added logic to the "if" statment of the "pickedColor" and created a new function, changeColors
+    When the correct color is picked, then we will change to background color of all "squares" to match
+    The function will A.) Loop through each square and B.) match the clicked color "if" correct.

@@ -8,24 +8,35 @@ var colors = [
 ]
 
 var squares = document.querySelectorAll(".square");
-var pickedColor = colors[2];
+var pickedColor = colors[5];
 var colorDisplay = document.getElementById("colorDisplay");
+var messageDisplay = document.querySelector("#message");
 
 colorDisplay.textContent = pickedColor;
 
 for(var i = 0; i < squares.length; i++){
     //add initial colors to squares
     squares[i].style.backgroundColor = colors[i];
-
     //add click listeners to squares
     squares[i].addEventListener("click", function() {
         //grab color of clicked square
         var clickedColor = this.style.backgroundColor;
         //compare color to pickedColor
         if(clickedColor === pickedColor) {
-            alert("Correct!");
+            messageDisplay.textContent = "Correct!";
+            changeColors(clickedColor);
         } else {
-            alert("Wrong!!!");
+            this.style.background = "#232323";
+            messageDisplay.textContent = "Try Again";
         }
     });
+}
+
+function changeColors(color) {
+    // Loop Through all Squares
+    for(var i = 0; i < squares.length; i++) {
+    // Change colors of all Squares to match the correct square
+    squares[i].style.background = color;
+}
+
 }
