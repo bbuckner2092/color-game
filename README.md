@@ -59,3 +59,15 @@
     A.) Made colors equal to a function, generateRandomColors(6)
     B.)Added the function, generateRandomColrs(6), to the bottom of JS file
     C.) Psuedo coded the 3 steps to make this function generate 6 random colors
+22.) Modified the generateRandomColors(num) function
+    Added another function which will actually generate the 6 colors we need.
+23.) Added a new function randomColor()
+    Created 3 new variables, R G B, which each consist of there own random numbers between 0 - 255
+24.) Concatenated the 3 variables before using the push method on the arr to generate the 6 random numbers.
+    Included a comment for the HTML to explain where we get the number of Squares.
+25.) Added an additional space between the , and " of the return rgb, specifically the G and B.
+    During the actual gameplay, when we would pick the correct square it was not identical to the spacing of the clicked color.  
+    This was the only true solution.
+26.) Added logic to change to h1 style background color when we "clicked" the correct color.
+    Created a new variable
+    Modified our logic in our if/else correct statement.
