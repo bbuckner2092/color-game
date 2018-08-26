@@ -54,3 +54,8 @@
 20.) Added logic to the "if" statment of the "pickedColor" and created a new function, changeColors
     When the correct color is picked, then we will change to background color of all "squares" to match
     The function will A.) Loop through each square and B.) match the clicked color "if" correct.
+
+21.) Modified the colors variable at the top of the JS file
+    A.) Made colors equal to a function, generateRandomColors(6)
+    B.)Added the function, generateRandomColrs(6), to the bottom of JS file
+    C.) Psuedo coded the 3 steps to make this function generate 6 random colors
