@@ -59,3 +59,5 @@
     A.) Made colors equal to a function, generateRandomColors(6)
     B.)Added the function, generateRandomColrs(6), to the bottom of JS file
     C.) Psuedo coded the 3 steps to make this function generate 6 random colors
+22.) Modified the generateRandomColors(num) function
+    Added another function which will actually generate the 6 colors we need.

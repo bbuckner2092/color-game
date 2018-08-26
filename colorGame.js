@@ -43,7 +43,14 @@ function pickColor(){
 function generateRandomColors(num){
     // Make an array
     var arr = [];
-    // add num random colors to array
+    // Repeat num times
+    for(var i = 0; i < num; i++){
+        // get random color and push to arr
+    }
     // return that array
     return arr;
+}
+
+function randomColor(){
+    
 }
