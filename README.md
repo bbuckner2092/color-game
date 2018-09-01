@@ -88,3 +88,5 @@
     Generates 3 new colors/squares; runs the pickColor() to get a new picked number; the Dom updates to display the picked color.
     Created a for loop that consist of an if where the first 3 squares will display the new random colors
     Else, the squares not selected will not display any colors.
+35.) Improved our hardBtn functionality.
+    Generated 6 new numbers, picked a number we want the user to select, displayed that color, and used a for loop to display the 6 squares.
