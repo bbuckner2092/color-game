@@ -77,3 +77,14 @@
     added an event listener and included our psuedo code.
 29.) Included our logic within our resetButton event listener
     generated new colors, picked a new random color, change the display to match the picked color, and changed the colors of the squares.
+30.) Modified our logic to change the text of the New Game to Play Again?
+    When we press Play Again? the h1 style background reverts back to the color in the CSS file.
+31.) Added in 2 new buttons, 2 new variables, and another selector in our CSS file.
+    Building an easy and hard mode for our game.
+32.) Added 2 new Event Listeners with the alert message to make sure they are functioning properly.
+33.)*** Modified the easy and hard event listeners. ***
+    Used the method .remove and .add to toggle off and on the selected difficulty level.
+34.) Adding additional functionality to the easyBtn
+    Generates 3 new colors/squares; runs the pickColor() to get a new picked number; the Dom updates to display the picked color.
+    Created a for loop that consist of an if where the first 3 squares will display the new random colors
+    Else, the squares not selected will not display any colors.
