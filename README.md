@@ -77,3 +77,5 @@
     added an event listener and included our psuedo code.
 29.) Included our logic within our resetButton event listener
     generated new colors, picked a new random color, change the display to match the picked color, and changed the colors of the squares.
+30.) Modified our logic to change the text of the New Game to Play Again?
+    When we press Play Again? the h1 style background reverts back to the color in the CSS file.
