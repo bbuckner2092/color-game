@@ -82,3 +82,5 @@
 31.) Added in 2 new buttons, 2 new variables, and another selector in our CSS file.
     Building an easy and hard mode for our game.
 32.) Added 2 new Event Listeners with the alert message to make sure they are functioning properly.
+33.)*** Modified the easy and hard event listeners. ***
+    Used the method .remove and .add to toggle off and on the selected difficulty level.
