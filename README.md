@@ -79,3 +79,5 @@
     generated new colors, picked a new random color, change the display to match the picked color, and changed the colors of the squares.
 30.) Modified our logic to change the text of the New Game to Play Again?
     When we press Play Again? the h1 style background reverts back to the color in the CSS file.
+31.) Added in 2 new buttons, 2 new variables, and another selector in our CSS file.
+    Building an easy and hard mode for our game.
