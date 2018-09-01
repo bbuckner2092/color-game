@@ -12,6 +12,12 @@ var hardBtn = document.querySelector("#hardBtn");
 easyBtn.addEventListener("click", function(){
     hardBtn.classList.remove("selected");
     easyBtn.classList.add("selected");
+    // Generated 3 new colors
+    colors = generateRandomColors(3);
+    // Pick a color for the User to guess
+    pickedColor = pickColor();
+    // Display what that pickedColor was
+    colorDisplay.textContent = pickedColor;
 });
 
 hardBtn.addEventListener("click", function () {
@@ -70,6 +76,9 @@ function pickColor(){
     return colors[random];
 }
 
+// This function below will generate 3 single numbers to create our RGB.
+// We then can modify the "num" parameter so that it can create that many different colors.
+// 1 num = 1 color, 2 num = 2 colors, 3 num = 3 colors, etc...
 function generateRandomColors(num){
     // Make an array
     var arr = [];

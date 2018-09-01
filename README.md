@@ -84,3 +84,5 @@
 32.) Added 2 new Event Listeners with the alert message to make sure they are functioning properly.
 33.)*** Modified the easy and hard event listeners. ***
     Used the method .remove and .add to toggle off and on the selected difficulty level.
+34.) Adding additional functionality to the easyBtn
+    Generates 3 new colors/squares; runs the pickColor() to get a new picked number; the Dom updates to display the picked color.
