@@ -18,6 +18,16 @@ easyBtn.addEventListener("click", function(){
     pickedColor = pickColor();
     // Display what that pickedColor was
     colorDisplay.textContent = pickedColor;
+    // loops the length of the squares, this case 3
+    // if it is the 3 then squares color = the colors generated
+    // else, the remaining squares will not display
+    for(var i = 0; i < squares.length; i++){
+        if(colors[i]){
+            squares[i].style.background = colors[i];
+        } else {
+            squares[i].style.display = "none";
+        }
+    }
 });
 
 hardBtn.addEventListener("click", function () {

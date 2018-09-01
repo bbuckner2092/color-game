@@ -86,3 +86,5 @@
     Used the method .remove and .add to toggle off and on the selected difficulty level.
 34.) Adding additional functionality to the easyBtn
     Generates 3 new colors/squares; runs the pickColor() to get a new picked number; the Dom updates to display the picked color.
+    Created a for loop that consist of an if where the first 3 squares will display the new random colors
+    Else, the squares not selected will not display any colors.
