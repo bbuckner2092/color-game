@@ -9,6 +9,14 @@ var resetButton = document.querySelector("#reset");
 var easyBtn = document.querySelector("#easyBtn");
 var hardBtn = document.querySelector("#hardBtn");
 
+easyBtn.addEventListener("click", function(){
+    alert("Easy Button was Clicked!");
+});
+
+hardBtn.addEventListener("click", function () {
+    alert("Hard Button was Clicked!");
+});
+
 resetButton.addEventListener("click", function(){
     // generate all new colors
     colors =generateRandomColors(6);

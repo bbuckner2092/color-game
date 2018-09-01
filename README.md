@@ -81,3 +81,4 @@
     When we press Play Again? the h1 style background reverts back to the color in the CSS file.
 31.) Added in 2 new buttons, 2 new variables, and another selector in our CSS file.
     Building an easy and hard mode for our game.
+32.) Added 2 new Event Listeners with the alert message to make sure they are functioning properly.
