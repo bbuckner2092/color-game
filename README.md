@@ -90,3 +90,4 @@
     Else, the squares not selected will not display any colors.
 35.) Improved our hardBtn functionality.
     Generated 6 new numbers, picked a number we want the user to select, displayed that color, and used a for loop to display the 6 squares.
+36.) Created a new variable.  Allows us to tailor our squares to the specified difficulty of the game.
