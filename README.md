@@ -93,3 +93,4 @@
 36.) Created a new variable.  Allows us to tailor our squares to the specified difficulty of the game.
 37.) Updated our Css file so that our h1 text is aligned centered.
 38.) Updated our background color for our h1.
+39.) Updated the logic in our JS file to make sure that our h1 background is consistently steel blue.
