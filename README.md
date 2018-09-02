@@ -122,3 +122,4 @@
     Usually use when you have 1 value with two different possibilities.
 52.) Updated our function reset by including an if/else statement to display the squares that have generated random colors.
 53.) Replaced our resetButton with the reset function to DRY up our code.
+54.) DRYed up the logic, reorganized the setup of our JS file, and condensed our init function with the mode, square, and reset functions.
