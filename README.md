@@ -102,3 +102,5 @@
 42.) Adding in padding into our h1 file.
 43.) Added in the button selector to our css file, and we gave the borders none.
     Added in the following properties: background, text-transformation, color, height, font-weight, letter-spacing, and font size.
+44.) Added the message selector into our CSS file.
+    Included the display inline-block property and the width property.
