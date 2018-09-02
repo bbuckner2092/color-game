@@ -109,3 +109,4 @@
     Also Modified the selected class in the CSS file to coincide with our button:hover selector
 46.) Updated our square class property with the border-radius.  Gives us that rounded curve for our squares.
     Updated our button selector to give it a transition to all button properties when we hover over the button.
+47.) Modified our .square class by giving it a background transition so that way it can fade out.
