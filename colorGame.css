@@ -33,6 +33,11 @@ h1 {
     font-size: 200%;
 }
 
+#message {
+    display: inline-block;
+    width: 20%;
+}
+
 #stripe {
     background: white;
     height: 30px;
