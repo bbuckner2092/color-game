@@ -112,3 +112,6 @@
 47.) Modified our .square class by giving it a background transition so that way it can fade out.
     Added in the moz and webkit transition properties to make sure we account for other browsers that may not be compatible.
 48.) Modified our container id by giving it a margin of 20px for the top.  Needed for consistent spacing.
+49.) Updated our resetButton logic.
+    When the user wins, it will clear the "correct" text display
+    When the user hits the "play again" it will reset back to "New Colors".
