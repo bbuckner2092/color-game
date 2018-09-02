@@ -1,6 +1,7 @@
 body {
     background-color: #232323;
     margin: 0;
+    font-family: "Montserrat", "Avenir";
 
 }
 
@@ -19,9 +20,16 @@ body {
 
 h1 {
     text-align: center;
+    line-height: 1.1;
+    font-weight: normal;
     color: white;
     background: steelblue;
     margin: 0;
+    text-transform: uppercase;
+}
+
+#colorDisplay {
+    font-size: 200%;
 }
 
 #stripe {
