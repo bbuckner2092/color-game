@@ -99,3 +99,4 @@
     Not a good idea but added in 2 line breaks for the h1.
     h1 selector we added in line-height, font-weight, and text-transform
     incldued in the colorDisplay selector and modified its font-weight.
+42.) Adding in padding into our h1 file.
