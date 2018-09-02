@@ -95,3 +95,7 @@
 38.) Updated our background color for our h1.
 39.) Updated the logic in our JS file to make sure that our h1 background is consistently steel blue.
 40.) Added in Margin 0 to both the body and h1 selectors in our CSS file.  Needed to get rid of any additional spaces.
+41.) Modified the text-family of the body with 2 build in family styles.
+    Not a good idea but added in 2 line breaks for the h1.
+    h1 selector we added in line-height, font-weight, and text-transform
+    incldued in the colorDisplay selector and modified its font-weight.
