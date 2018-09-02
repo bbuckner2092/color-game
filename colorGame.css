@@ -26,6 +26,7 @@ h1 {
     background: steelblue;
     margin: 0;
     text-transform: uppercase;
+    padding: 20px 0;
 }
 
 #colorDisplay {
@@ -40,4 +41,8 @@ h1 {
 
 .selected {
     background: Blue;
+}
+
+button {
+    border: none;
 }
