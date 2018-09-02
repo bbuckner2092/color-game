@@ -94,3 +94,4 @@
 37.) Updated our Css file so that our h1 text is aligned centered.
 38.) Updated our background color for our h1.
 39.) Updated the logic in our JS file to make sure that our h1 background is consistently steel blue.
+40.) Added in Margin 0 to both the body and h1 selectors in our CSS file.  Needed to get rid of any additional spaces.
