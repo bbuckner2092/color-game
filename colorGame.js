@@ -13,7 +13,29 @@ for(var i = 0; i < modeButtons.length; i++){
         modeButtons[0].classList.remove("selected");
         modeButtons[1].classList.remove("selected");
         this.classList.add("selected");
-    })
+        // figure out how many squares to show
+        // pick new colors
+        // pick a new pickedColor
+        // update page to reflect changes
+    });
+}
+
+function reset(){
+    // generate all new colors
+    colors = generateRandomColors(numSquares);
+    // pick a new random color from the array
+    pickedColor = pickColor();
+    // change colorDisplay to match pickedColors
+    colorDisplay.textContent = pickedColor;
+    // removes "Play Again" and adds "New Colors"
+    resetButton.textContent = "New Colors";
+    // clears the "Correct" text to blank
+    messageDisplay.textContent = "";
+    // change colors of squares
+    for (var i = 0; i < squares.length; i++) {
+        squares[i].style.background = colors[i];
+    }
+    h1.style.background = "steelblue";
 }
 
 // easyBtn.addEventListener("click", function(){
