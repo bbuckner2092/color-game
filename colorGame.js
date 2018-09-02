@@ -13,6 +13,8 @@ for(var i = 0; i < modeButtons.length; i++){
         modeButtons[0].classList.remove("selected");
         modeButtons[1].classList.remove("selected");
         this.classList.add("selected");
+        this.textContent === "Easy" ? numSquares =3: numSquares = 6;
+        reset();
         // figure out how many squares to show
         // pick new colors
         // pick a new pickedColor
@@ -33,7 +35,13 @@ function reset(){
     messageDisplay.textContent = "";
     // change colors of squares
     for (var i = 0; i < squares.length; i++) {
-        squares[i].style.background = colors[i];
+        if(colors[i]){
+            squares[i].style.display = "block";
+            squares[i].style.background = colors[i];
+        } else {
+            squares[i].style.display = "none";
+        }
+        
     }
     h1.style.background = "steelblue";
 }
