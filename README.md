@@ -100,3 +100,4 @@
     h1 selector we added in line-height, font-weight, and text-transform
     incldued in the colorDisplay selector and modified its font-weight.
 42.) Adding in padding into our h1 file.
+43.) Added in the button selector to our css file, and we gave the borders none.

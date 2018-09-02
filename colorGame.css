@@ -42,3 +42,7 @@ h1 {
 .selected {
     background: Blue;
 }
+
+button {
+    border: none;
+}
