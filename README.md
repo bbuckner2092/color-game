@@ -110,3 +110,5 @@
 46.) Updated our square class property with the border-radius.  Gives us that rounded curve for our squares.
     Updated our button selector to give it a transition to all button properties when we hover over the button.
 47.) Modified our .square class by giving it a background transition so that way it can fade out.
+    Added in the moz and webkit transition properties to make sure we account for other browsers that may not be compatible.
+48.) Modified our container id by giving it a margin of 20px for the top.  Needed for consistent spacing.
