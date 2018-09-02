@@ -120,3 +120,4 @@
 51.) *** Ternary Operator Implemented ***
     For the if/else statement we replaced it with the Ternary Operator for a shorter/cleaner look.
     Usually use when you have 1 value with two different possibilities.
+52.) Updated our function reset by including an if/else statement to display the squares that have generated random colors.

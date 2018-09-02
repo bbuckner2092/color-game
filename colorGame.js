@@ -35,7 +35,13 @@ function reset(){
     messageDisplay.textContent = "";
     // change colors of squares
     for (var i = 0; i < squares.length; i++) {
-        squares[i].style.background = colors[i];
+        if(colors[i]){
+            squares[i].style.display = "block";
+            squares[i].style.background = colors[i];
+        } else {
+            squares[i].style.display = "none";
+        }
+        
     }
     h1.style.background = "steelblue";
 }
