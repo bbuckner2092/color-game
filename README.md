@@ -104,3 +104,6 @@
     Added in the following properties: background, text-transformation, color, height, font-weight, letter-spacing, and font size.
 44.) Added the message selector into our CSS file.
     Included the display inline-block property and the width property.
+45.)*** Added in the button:hover selector in our CSS file. ***
+    When we hover over the buttons the colors we have will alternate.
+    Also Modified the selected class in the CSS file to coincide with our button:hover selector
