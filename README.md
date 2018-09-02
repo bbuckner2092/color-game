@@ -107,3 +107,5 @@
 45.)*** Added in the button:hover selector in our CSS file. ***
     When we hover over the buttons the colors we have will alternate.
     Also Modified the selected class in the CSS file to coincide with our button:hover selector
+46.) Updated our square class property with the border-radius.  Gives us that rounded curve for our squares.
+    Updated our button selector to give it a transition to all button properties when we hover over the button.
